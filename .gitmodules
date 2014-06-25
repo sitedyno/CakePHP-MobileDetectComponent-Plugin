@@ -1,0 +1,3 @@
+[submodule "Vendor/Mobile-Detect"]
+	path = Vendor/Mobile-Detect
+	url = git@github.com:sitedyno/Mobile-Detect.git
