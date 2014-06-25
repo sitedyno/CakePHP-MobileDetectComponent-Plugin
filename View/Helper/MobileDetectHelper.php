@@ -57,7 +57,7 @@ class MobileDetectHelper extends AppHelper {
 			);
 			// abort if vendor class wasn't autoloaded and can't be found.
 			if (!$loaded) {
-				//throw new CakeException('Mobile_Detect is missing or could not be loaded.');
+				throw new CakeException('Mobile_Detect is missing or could not be loaded.');
 			}
 		}
 		// instantiate once per method call
